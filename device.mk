@@ -337,6 +337,10 @@ PRODUCT_PACKAGES += \
     libandroid_net \
     netutils-wrapper-1.0
 
+# Preopt SystemUI
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    SystemUI
+
 # Perfd (dummy)
 PRODUCT_PACKAGES += \
     libqti-perfd-client
